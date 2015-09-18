@@ -1,0 +1,252 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <RelativeLayout
+                android:id="@+id/relativelayout_first"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_centerInParent="true">
+
+                <ImageView
+                    android:id="@+id/start1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@mipmap/img_guide_page_1_star"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/start2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="45dp"
+                    android:layout_marginTop="3dp"
+                    android:src="@mipmap/img_guide_page_1_star"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/start3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="25dp"
+                    android:layout_marginRight="35dp"
+                    android:src="@mipmap/img_guide_page_1_star"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/first_page_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@mipmap/img_guide_page_1" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativelayout_second"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_centerInParent="true"
+                android:background="@mipmap/img_guide_page_bg">
+
+                <ImageView
+                    android:id="@+id/second_bg1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="50dp"
+                    android:src="@mipmap/img_guide_page_3_icon1" />
+
+                <ImageView
+                    android:id="@+id/second_bg4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="50dp"
+                    android:src="@mipmap/img_guide_page_3_icon4" />
+
+                <ImageView
+                    android:id="@+id/second_bg2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="80dp"
+                    android:src="@mipmap/img_guide_page_3_icon2" />
+
+                <ImageView
+                    android:id="@+id/second_bg3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="80dp"
+                    android:layout_marginRight="40dp"
+                    android:src="@mipmap/img_guide_page_3_icon3" />
+
+                <ImageView
+                    android:id="@+id/second_bg5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="80dp"
+                    android:layout_marginLeft="40dp"
+                    android:src="@mipmap/img_guide_page_3_icon5" />
+
+                <ImageView
+                    android:id="@+id/second_bg6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="80dp"
+                    android:src="@mipmap/img_guide_page_3_icon6" />
+
+                <ImageView
+                    android:id="@+id/second_bg7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@mipmap/img_guide_page_3_icon7" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativelayout_third"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_centerInParent="true"
+                android:background="@mipmap/img_guide_page_bg">
+
+                <ImageView
+                    android:id="@+id/third_box"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="30dp"
+                    android:src="@mipmap/img_guide_page_4_box" />
+
+                <ImageView
+                    android:id="@+id/third_cash"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="15dp"
+                    android:paddingBottom="40dp"
+                    android:src="@mipmap/img_guide_page_4_cash" />
+
+                <ImageView
+                    android:id="@+id/third_arrow_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="80dp"
+                    android:src="@mipmap/img_guide_page_4_arrow_2" />
+
+                <ImageView
+                    android:id="@+id/third_arrow_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="90dp"
+                    android:src="@mipmap/img_guide_page_4_arrow_1" />
+
+                <ImageView
+                    android:id="@+id/third_arrow_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="90dp"
+                    android:src="@mipmap/img_guide_page_4_arrow_3" />
+
+                <ImageView
+                    android:id="@+id/third_order"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="15dp"
+                    android:paddingBottom="40dp"
+                    android:src="@mipmap/img_guide_page_4_order" />
+            </RelativeLayout>
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"></android.support.v4.view.ViewPager>
+
+            <LinearLayout
+                android:id="@+id/linearlayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp">
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/login"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/login_bg"
+                android:text="@string/login"
+                android:textColor="#f94041"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/register"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/register_bg"
+                android:text="@string/register"
+                android:textColor="@android:color/white"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/splash_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:src="@mipmap/splash_shake" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:src="@mipmap/splash_brand" />
+    </FrameLayout>
+</FrameLayout>
+
