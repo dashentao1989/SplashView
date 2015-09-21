@@ -70,8 +70,8 @@ public class FirstAnimator implements DefaultAnimator {
     }
 
     private void startAnimatorSet(final View view) {
-        ObjectAnimator startAnimatorX1 = ObjectAnimator.ofFloat(view, "scaleX", 0f, 1f);
-        ObjectAnimator startAnimatorY1 = ObjectAnimator.ofFloat(view, "scaleY", 0f, 1f);
+        ObjectAnimator startAnimatorX1 = ObjectAnimator.ofFloat(view, "scaleX", 0f, 1f, 1.8f, 1f, 0.7f, 1.4f, 1.0f, 0.8f, 1f);
+        ObjectAnimator startAnimatorY1 = ObjectAnimator.ofFloat(view, "scaleY", 0f, 1f, 1.8f, 1f, 0.7f, 1.4f, 1.0f, 0.8f, 1f);
         AnimatorSet animatorSet = new AnimatorSet();
         animatorSet.setDuration(200);
         animatorSet.setInterpolator(new AccelerateInterpolator());
