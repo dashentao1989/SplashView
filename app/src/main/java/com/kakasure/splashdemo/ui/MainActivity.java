@@ -38,7 +38,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button login;
     private Button register;
     private LinearLayout linearLayout;
-
     private RelativeLayout relativeLayoutFirst;
     private RelativeLayout relativeLayoutSecond;
     private RelativeLayout relativeLayoutThrid;
