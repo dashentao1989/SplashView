@@ -32,7 +32,6 @@ import java.util.List;
  * @since V 1.0
  */
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-    //
     private String TAG = MainActivity.this.getClass().getSimpleName();
     private ViewPager viewPager;
     private Button login;
