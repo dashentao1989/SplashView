@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private RelativeLayout relativeLayoutSecond;
     private RelativeLayout relativeLayoutThrid;
     private FrameLayout splashbg;
+
     private List<ImageView> imgList = new ArrayList<ImageView>();
     private List<Fragment> fragList = new ArrayList<Fragment>();
     private int currentPosition = -1;
