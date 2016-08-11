@@ -37,8 +37,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button login;
     private Button register;
     private LinearLayout linearLayout;
-
-
     private RelativeLayout relativeLayoutFirst;
     private RelativeLayout relativeLayoutSecond;
     private RelativeLayout relativeLayoutThrid;
@@ -46,6 +44,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private List<ImageView> imgList = new ArrayList<ImageView>();
     private List<Fragment> fragList = new ArrayList<Fragment>();
     private int currentPosition = -1;
+
     private Handler myHandler = new Handler() {
         @Override
         public void handleMessage(Message msg) {
