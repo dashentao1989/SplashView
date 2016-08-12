@@ -34,11 +34,10 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private String TAG = MainActivity.this.getClass().getSimpleName();
     private ViewPager viewPager;
-    private Button login;
 
+    private Button login;
     private Button register;
     private LinearLayout linearLayout;
-
     private RelativeLayout relativeLayoutFirst;
     private RelativeLayout relativeLayoutSecond;
     private RelativeLayout relativeLayoutThrid;
